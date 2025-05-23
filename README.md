@@ -2,33 +2,26 @@
 
 ## Overview
 
-This repository contains a comprehensive project for detecting fake or synthesized speech using artificial intelligence. It includes all necessary code, scripts, and resources to preprocess audio, extract features, train and evaluate machine learning models, and assess detection performance. Additionally, the repository features a detailed report documenting the methodology, experiments, and results.
+This repository explores the detection of fake or AI-generated speech using machine learning and deep learning techniques. The main focus is on research and experimentation rather than providing a production-ready pipeline. The project is primarily implemented through Jupyter Notebooks, which document data exploration, feature extraction, model training, and evaluation steps. A final report summarizing the methodology and findings is also included.
 
-## Contents
+## Repository Structure
 
-- **/data/**: Sample audio datasets (or scripts to download/prepare them)
-- **/models/**: Model architectures, training checkpoints, and weights
-- **/scripts/**: Utility scripts for preprocessing, training, evaluation, and inference
-- **/notebooks/**: Jupyter notebooks for experiments, visualization, and analysis
-- **/report/**: Project report (PDF, Markdown, or LaTeX) detailing:
-  - Problem statement and motivation
-  - Literature review and related work
-  - Dataset details
-  - Feature extraction and modeling
-  - Experimental results and analysis
-  - Conclusions and future work
-- **requirements.txt**: List of Python dependencies
-- **README.md**: Project overview and instructions
+```
+.
+├── notebooks/         # Jupyter Notebooks with experiments, data analysis, and model training
+├── data/              # Directory for datasets or data scripts
+├── report/            # Project report
+├── README.md          # This file
+```
 
 ## Key Features
 
-- End-to-end pipeline for fake speech detection
-- Support for popular audio feature extraction (MFCCs, spectrograms, etc.)
-- Multiple model architectures (traditional ML and deep learning)
-- Reproducible experiments and results
-- Well-documented code and a detailed final report
+- Experiments in fake speech detection using classic ML and/or deep learning models
+- Feature extraction and data preprocessing illustrated in notebooks
+- Step-by-step documentation of the approach and results
+- A project report detailing the problem, experiments, results, and conclusions
 
-## Getting Started
+## Usage
 
 1. **Clone the repository**
    ```bash
@@ -37,27 +30,14 @@ This repository contains a comprehensive project for detecting fake or synthesiz
    ```
 
 2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+   - If a `requirements.txt` file is present:
+     ```bash
+     pip install -r requirements.txt
+     ```
+   - Otherwise, install common data science packages: Jupyter, numpy, pandas, scikit-learn, librosa, matplotlib, etc.
 
-3. **Prepare the dataset**
-   - Place your audio files in the `data/` directory or use provided scripts to download/preprocess datasets.
+3. **Open and run the notebooks**
+   - Start Jupyter and explore the notebooks in the `notebooks/` directory to follow the experiments and results.
 
-4. **Run preprocessing and feature extraction**
-   ```bash
-   python scripts/preprocess.py
-   ```
-
-5. **Train the model**
-   ```bash
-   python scripts/train.py
-   ```
-
-6. **Evaluate or test the model**
-   ```bash
-   python scripts/evaluate.py
-   ```
-
-7. **Read the report**
-   - See the `/report/` directory for the full project report, including methodology and findings.
+4. **Read the report**
+   - Consult the `report/` directory for a detailed write-up of the project, including methodology, experiments, and conclusions.
