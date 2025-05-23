@@ -28,16 +28,9 @@ This repository explores the detection of fake or AI-generated speech using mach
    git clone https://github.com/paesas-upc/Fake-Speech-Detection-Using-AI.git
    cd Fake-Speech-Detection-Using-AI
    ```
-
-2. **Install dependencies**
-   - If a `requirements.txt` file is present:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - Otherwise, install common data science packages: Jupyter, numpy, pandas, scikit-learn, librosa, matplotlib, etc.
-
-3. **Open and run the notebooks**
+   
+2. **Open and run the notebooks**
    - Start Jupyter and explore the notebooks in the `notebooks/` directory to follow the experiments and results.
 
-4. **Read the report**
+3. **Read the report**
    - Consult the `report/` directory for a detailed write-up of the project, including methodology, experiments, and conclusions.
