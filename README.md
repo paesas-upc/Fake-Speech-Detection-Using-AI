@@ -61,15 +61,3 @@ This repository contains a comprehensive project for detecting fake or synthesiz
 
 7. **Read the report**
    - See the `/report/` directory for the full project report, including methodology and findings.
-
-## Contributing
-
-Contributions are welcome! Please open issues or pull requests for improvements, new features, or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
-
-## Contact
-
-For questions or support, please open an issue in this repository.
